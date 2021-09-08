@@ -48,7 +48,6 @@ set_target_properties(${PROJECT_NAME} PROPERTIES COMPILE_FLAGS ${COMPILE_FLAGS})
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/include)
 
 
-
 # Create executable for gtests.
 # Set project name for gtest.
 project(a.out.gtest)
